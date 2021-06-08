@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="UfV-aW-HAF">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--Localization Ready Controller-->
+        <scene sceneID="HPq-BF-nvQ">
+            <objects>
+                <viewController storyboardIdentifier="LocalizationReady" useStoryboardIdentifierAsRestorationIdentifier="YES" id="UfV-aW-HAF" customClass="WLocalizationReadyController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AxK-ry-BlI"/>
+                        <viewControllerLayoutGuide type="bottom" id="D7G-VD-g3v"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wOO-y4-BW1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="localizationReady_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="oy6-hG-00Z">
+                                <rect key="frame" x="0.0" y="98" width="150" height="119"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="localizationReady_2.png" translatesAutoresizingMaskIntoConstraints="NO" id="feI-s1-vOf">
+                                <rect key="frame" x="150" y="98" width="170" height="138"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="localizationReady_3.png" translatesAutoresizingMaskIntoConstraints="NO" id="IIj-hm-krH">
+                                <rect key="frame" x="20" y="263" width="280" height="258"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GOl-Np-i7O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="189" y="63"/>
+        </scene>
+        <!--Localization Icon Title Controller-->
+        <scene sceneID="Udi-IM-8n3">
+            <objects>
+                <viewController storyboardIdentifier="LocalizationIconTitle" useStoryboardIdentifierAsRestorationIdentifier="YES" id="OsN-Mq-Ta0" customClass="WLocalizationIconTitleController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wfb-oL-84f"/>
+                        <viewControllerLayoutGuide type="bottom" id="Oqf-48-C5q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vzn-jR-L44">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="详见代码注释" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mCz-Ta-7r6">
+                                <rect key="frame" x="20" y="192" width="112" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EIY-wo-6RR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="566" y="63"/>
+        </scene>
+        <!--Localization Text Controller-->
+        <scene sceneID="ibG-N6-gdg">
+            <objects>
+                <viewController storyboardIdentifier="LocalizationText" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9dS-FC-OTZ" customClass="WLocalizationTextController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tDf-LR-FfS"/>
+                        <viewControllerLayoutGuide type="bottom" id="JXo-Kv-l8N"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yQ0-eb-VNc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ymi-j3-FN1">
+                                <rect key="frame" x="20" y="197" width="280" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="lblMsg" destination="ymi-j3-FN1" id="Uwa-Rz-i9L"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R1t-Tj-DaJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="891" y="61"/>
+        </scene>
+        <!--Localization Image Controller-->
+        <scene sceneID="pdF-H2-C7w">
+            <objects>
+                <viewController storyboardIdentifier="LocalizationImage" useStoryboardIdentifierAsRestorationIdentifier="YES" id="kpf-XP-oXg" customClass="WLocalizationImageController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fM8-o7-8kT"/>
+                        <viewControllerLayoutGuide type="bottom" id="ALn-Qp-3U8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WJa-r0-08W">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GOV-hO-HCz">
+                                <rect key="frame" x="59" y="79" width="202" height="177"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="GOV-hO-HCz" id="meR-cK-RUA"/>
+                        <outlet property="imageView2" destination="Qjt-wB-KtO" id="HQ4-sG-6ta"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xAq-aY-54G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1231" y="56"/>
+        </scene>
+        <!--Localization Demo Controller-->
+        <scene sceneID="FQa-60-6FL">
+            <objects>
+                <viewController storyboardIdentifier="LocalizationDemo" useStoryboardIdentifierAsRestorationIdentifier="YES" id="nTt-v3-FdA" customClass="WLocalizationDemoController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UmB-7i-JEt"/>
+                        <viewControllerLayoutGuide type="bottom" id="hhV-tV-5dq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5d5-96-5pm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="RZU-xL-1vF">
+                                <rect key="frame" x="20" y="89" width="280" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Re9-nx-O9P">
+                                <rect key="frame" x="20" y="422" width="130" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="改变语言（获取英文的本地化资源）">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnChangeLanguage:" destination="nTt-v3-FdA" eventType="touchUpInside" id="AEb-68-NJH"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qjt-wB-KtO">
+                                <rect key="frame" x="20" y="228" width="202" height="177"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="Qjt-wB-KtO" id="q2N-LH-utz"/>
+                        <outlet property="lblMsg" destination="RZU-xL-1vF" id="m7o-tU-UOU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ecf-rr-GF3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1579" y="56"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="localizationReady_1.png" width="235" height="214"/>
+        <image name="localizationReady_2.png" width="322" height="255"/>
+        <image name="localizationReady_3.png" width="364" height="400"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

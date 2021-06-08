@@ -1,0 +1,25 @@
+﻿<!--用于演示 javascript 如何与 webview 交互-->
+
+<body>
+    
+    <span id="lblMsg">i am wanglei</span>
+    
+    <script type="text/javascript">
+        
+        // 用于演示 oc 调用 js
+        function hello(name) {
+            var result = "hello: " + name;
+            alert(name);
+            
+            // 将结果返回给 oc
+            return result;
+        }
+    
+        // 用于演示 js 调用 oc
+        // jstooc: - 是自定义协议
+        // i am wanglei - 是协议中需要传递的数据
+        window.location.href = "jstooc:i am wanglei";
+    
+        </script>
+    
+</body>
